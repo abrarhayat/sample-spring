@@ -14,11 +14,11 @@
 <body>
 <c:forEach items="${groceries}" var="grocery">
     <img src="images/${grocery.filename}"><br>
-    ${grocery.title}<br>
-    ${grocery.type}<br>
-    ${grocery.height}<br>
-    ${grocery.width}<br>
-    ${grocery.rating}<br>
+    <h1>${grocery.title}</h1>
+    Type: ${grocery.type}<br>
+    Height: ${grocery.height}<br>
+    Width: ${grocery.width}<br>
+    Rating: ${grocery.rating}<br>
     <br>
 </c:forEach>
 </body>
